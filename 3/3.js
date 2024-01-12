@@ -1,9 +1,10 @@
+//參考蔡羽軒的，已理解全部
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import * as render from './render.js'
 
 const posts = [
-  {id:0, title:'陳淑玉', body:'0935578900'},
-  {id:1, title:'哈哈是我啦', body:'0909119450'}
+  {id:0, title:'張美惠', body:'0918513213'},
+  {id:1, title:'我', body:'0972251261'}
 ];
 
 const router = new Router();
